@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LazyWaterfallGrid"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "A SwiftUI Grid with a Waterfall distribution"
   
   
@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://github.com/samuelbrasileiro/LazyWaterfallGrid"
-  spec.screenshots  = "https://github.com/samuelbrasileiro/LazyWaterfallGrid/blob/main/Video_Preview.mov?raw=true"
+  #spec.screenshots  = "https://github.com/samuelbrasileiro/LazyWaterfallGrid/blob/main/Video_Preview.mov"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -102,7 +102,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  spec.resources = "LazyWaterfallGrid/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  #spec.resources = "LazyWaterfallGrid/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -130,5 +130,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-
+    
+  spec.swift_version = "5.1"
+  
 end
