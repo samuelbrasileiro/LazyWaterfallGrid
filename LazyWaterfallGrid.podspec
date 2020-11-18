@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://github.com/samuelbrasileiro/LazyWaterfallGrid"
-  #spec.screenshots  = "https://github.com/samuelbrasileiro/LazyWaterfallGrid/blob/main/Video_Preview.mov"
+  spec.screenshots  = "https://raw.githubusercontent.com/samuelbrasileiro/LazyWaterfallGrid/main/Resources/IMG_5164.PNG", "https://raw.githubusercontent.com/samuelbrasileiro/LazyWaterfallGrid/main/Resources/IMG_5165.PNG"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
